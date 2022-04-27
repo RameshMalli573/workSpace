@@ -1,0 +1,5 @@
+package com.config.model;
+
+public class Book {
+
+}

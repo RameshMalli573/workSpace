@@ -1,0 +1,15 @@
+package com.config.model;
+
+import javax.persistence.EmbeddedId;
+
+import com.config.model.BookIdentity;
+
+public class Book {
+	
+    @EmbeddedId
+    private BookIdentiry bookIdentity;
+    
+	private String title;
+	private int price;
+}
+

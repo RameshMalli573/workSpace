@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+org.eclipse.debug.core.PREF_BREAKPOINT_MANAGER_ENABLED_STATE=true
+org.eclipse.debug.core.USE_STEP_FILTERS=true
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n    <expression enabled\="true" text\="i"/>\n    <expression enabled\="true" text\="k"/>\n    <expression enabled\="true" text\="currRow"/>\n    <expression enabled\="true" text\="FileWriter"/>\n    <expression enabled\="true" text\="column"/>\n    <expression enabled\="true" text\="row"/>\n    <expression enabled\="true" text\="column"/>\n    <expression enabled\="true" text\="name"/>\n</watchExpressions>\n

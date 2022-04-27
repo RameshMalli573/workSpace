@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/malli.ramesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/OOAD/src/Sample/CreateBooks.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.rakuten"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="app"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/malli.ramesh/Downloads/microservices-main"/>
+			<item value="/Users/malli.ramesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/user-service1"/>
+			<item value="/Users/malli.ramesh/Documents/repo codes/day-wise-code/jpa-one-to-many-demo"/>
+			<item value="/Users/malli.ramesh/Documents/repo codes/day-wise-code/jpa-composite-primary-key-demo"/>
+			<item value="/Users/malli.ramesh/Downloads/SpringBoot_ActiveMQ-main"/>
+			<item value="/Users/malli.ramesh/Downloads/Circuit-Breaker"/>
+			<item value="/Users/malli.ramesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/microservices-main/cloud-gateway"/>
+			<item value="/Users/malli.ramesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/microservices-main"/>
+			<item value="/Users/malli.ramesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/spring-cloud-config-server-demo"/>
+			<item value="/Users/malli.ramesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/spring-boot-kafka-app"/>
+			<item value="/Users/malli.ramesh/Downloads/examples/clients/cloud/java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

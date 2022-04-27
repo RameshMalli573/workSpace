@@ -1,0 +1,9 @@
+import java.sql.*;
+
+public class TransactionExample {
+
+	public static void main(String[] args) {
+		Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost/db1","postgres","1224");
+	}
+
+}

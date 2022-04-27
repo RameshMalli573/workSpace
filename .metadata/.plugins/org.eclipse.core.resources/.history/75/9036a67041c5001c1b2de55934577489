@@ -1,0 +1,63 @@
+package com.config;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.config.model.Book;
+import com.config.model.BookIdentiry;
+import com.config.repository.BookRepository;
+import com.example.jpa.JpaCompositePrimaryKeyDemoApplication;
+import com.example.jpa.model.Employee;
+import com.example.jpa.model.EmployeeIdentity;
+import com.example.jpa.repository.EmployeeRepository;
+
+@SpringBootApplication
+public class BookCompositeKeyDemoApplication {
+	
+	@Autowired
+	private BookRepository bookRepository;
+
+	public static void main(String[] args) {
+		SpringApplication.run(BookCompositeKeyDemoApplication.class, args);
+	}
+	
+	public void run(String... args) throws Exception{
+		bookRepository.deleteAllInBatch();
+		
+		Book book = new Book(new BookIdentiry("E-123", "D-457"),"Rakuten engineer",1000);
+		
+		bookRepository.save(book);
+	}
+
+}
+
+/*
+@SpringBootApplication
+public class JpaCompositePrimaryKeyDemoApplication implements CommandLineRunner {
+
+	@Autowired
+	private EmployeeRepository employeeRepository;
+
+	public static void main(String[] args) {
+		SpringApplication.run(JpaCompositePrimaryKeyDemoApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		employeeRepository.deleteAllInBatch();
+
+		Employee employee = new Employee(new EmployeeIdentity("E-123", "D-457"),
+				"Rakuten engineer",
+				"sampleMail.com",
+				"+91-7658764599");
+
+		employeeRepository.save(employee);
+
+		employeeRepository.findById(new EmployeeIdentity("E-123", "D-457"));
+
+		employeeRepository.findByEmployeeIdentityCompanyId("D-457");
+	}
+}
+*/

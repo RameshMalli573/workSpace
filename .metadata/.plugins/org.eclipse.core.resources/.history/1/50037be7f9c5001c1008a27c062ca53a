@@ -1,0 +1,7 @@
+package sample
+
+class First {
+	static void main() {
+		
+	}
+}
