@@ -1,7 +1,0 @@
-package sample
-
-class User {
-	public static void main() {
-		println("called")
-	}
-}

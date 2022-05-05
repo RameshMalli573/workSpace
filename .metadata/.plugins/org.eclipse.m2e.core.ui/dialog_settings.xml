@@ -69,8 +69,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="/Users/malli.ramesh/Downloads/microservices-main"/>
 			<item value="/Users/malli.ramesh/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/user-service1"/>
+			<item value="/Users/malli.ramesh/Downloads/Pension Management System"/>
+			<item value="/Users/malli.ramesh/Documents/repo codes/day-wise-code/jpa-many-to-many-demo"/>
+			<item value="/Users/malli.ramesh/Downloads/microservices-main"/>
 			<item value="/Users/malli.ramesh/Documents/repo codes/day-wise-code/jpa-one-to-many-demo"/>
 			<item value="/Users/malli.ramesh/Documents/repo codes/day-wise-code/jpa-composite-primary-key-demo"/>
 			<item value="/Users/malli.ramesh/Downloads/SpringBoot_ActiveMQ-main"/>

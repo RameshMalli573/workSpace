@@ -1,9 +1,0 @@
-import org.apache.ivy.Main
-
-class User {
-	static void main() {
-		new File("new.txt").eachLine {
-			line -> println "line : $line";
-		}
-	}
-}

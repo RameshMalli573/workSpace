@@ -48,4 +48,19 @@ public class UserService {
 		}
 		return filteredUsers;
 	}
+
+	public boolean deleteById(int id) {
+		boolean exists = repository.existsById(id);
+		if(!exists) return false;
+		
+		repository.deleteById(id);
+		return true;
+	}
+
+	public boolean deleteAll() {
+		Long size = repository.count();
+		if(size == 0)return false;
+		repository.deleteAll();
+		return true;
+	}
 }
