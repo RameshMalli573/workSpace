@@ -14,7 +14,7 @@ public class Appointment {
 	int id;
 
 	enum PackageType {
-		TYPE1, TYPE2;
+		ONE, TWO;
 	}
 
 	private String name;
@@ -29,6 +29,9 @@ public class Appointment {
 	private String pinCode;
 	private PackageType packageType;
 
+	public Appointment() {
+		
+	}
 	public Appointment(String name, int age, String email, String mobileNumber, String addressLine1,
 			String addressLine2, String city, String state, String country, String pinCode, String packageType) {
 		this.name = name;
@@ -128,8 +131,8 @@ public class Appointment {
 		return packageType;
 	}
 
-	public void setPackageType(PackageType packageType) {
-		this.packageType = packageType;
+	public void setPackageType(String packageType) {
+		this.packageType = PackageType.valueOf(packageType.toUpperCase());
 	}
 
 	public int getId() {

@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/v1.0/fitnesstracker")
+@RequestMapping("/fitnesstracker")
 public class FitnessController {
 	
 	@Autowired FitnessService service;
@@ -29,7 +29,7 @@ public class FitnessController {
 	@GetMapping("/appointments")
 	List<Appointment> getAllAppointments() {
 		List<Appointment> appointments = new ArrayList<>();
-
+		appointments = service.getAllAppointments();
 		return appointments;
 	}
 
@@ -42,12 +42,13 @@ public class FitnessController {
 	
 	@PostMapping("/appointments")
 	void createAppointment(@RequestBody Appointment appointment) {
+		System.out.println("called");
 		service.save(appointment);
 	}
 	
 	@PutMapping("/appointments/{id}")
-	void updateAppointment(@PathVariable int id) {
-		
+	void updateAppointment(@PathVariable int id,@RequestBody Appointment appointment) {
+		service.updateAppointment(id,appointment);
 	}
 
 	@DeleteMapping("/appointments/{id}")
